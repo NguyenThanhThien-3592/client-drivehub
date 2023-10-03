@@ -1,0 +1,27 @@
+mat-sidenav-container {
+  height: 100%;
+
+  .mat-sidenav {
+    width: 300px;
+  }
+
+  .search {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .interact-file {
+    display: flex;
+    justify-content: space-between;
+    .file-path {
+      margin-left: 12px;
+    }
+    .interact-list {
+      display: inline-block;
+      margin-right: 12px;
+      button {
+        margin: 0 12px;
+      }
+    }
+  }
+}

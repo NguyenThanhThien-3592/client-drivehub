@@ -1,0 +1,49 @@
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened="true">
+    <mat-toolbar color="primary">
+      <h1>Drive Hub</h1>
+    </mat-toolbar>
+    <mat-list role="list">
+      <mat-list-item role="listitem">Item 1</mat-list-item>
+      <mat-list-item role="listitem">Item 2</mat-list-item>
+      <mat-list-item role="listitem">Item 3</mat-list-item>
+    </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="search">
+      <form action="">
+        <mat-form-field>
+          <mat-label>Search for files and folders</mat-label>
+          <input type="text" matInput />
+        </mat-form-field>
+      </form>
+      <button mat-button>Nguyen Thanh Thien</button>
+    </div>
+    <div class="interact-file">
+      <div class="file-path">
+        <button mat-button>
+          <mat-icon
+            aria-hidden="false"
+            aria-label="Example home icon"
+            fontIcon="home"
+          ></mat-icon>
+          My Files
+        </button>
+      </div>
+      <div class="interact-list">
+        <button mat-button>
+          <mat-icon aria-hidden="false" fontIcon="share"></mat-icon>
+          Share
+        </button>
+        <button mat-button>
+          <mat-icon aria-hidden="false" fontIcon="download"></mat-icon>
+          Download
+        </button>
+        <button mat-button>
+          <mat-icon aria-hidden="false" fontIcon="delete"></mat-icon>
+          Delete
+        </button>
+      </div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
